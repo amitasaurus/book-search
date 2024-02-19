@@ -10,7 +10,7 @@ import {
 } from '@/components/ui/table';
 import { Input } from '@/components/ui/input';
 import bookStore from '@/lib/data';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { cn } from './lib/utils';
 type Book = {
   [key: string]: string | number;
